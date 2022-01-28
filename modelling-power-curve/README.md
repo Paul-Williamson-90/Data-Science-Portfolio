@@ -1,4 +1,4 @@
-# Modelling the Power Curve of a Wind Turbine
+# Modelling the Power Curve of Wind Turbines
 ![](https://assets.justenergy.com/wp-content/uploads/2020/11/wind-energy-image-definition.jpg)
 
 ## Problem Statement
