@@ -7,4 +7,6 @@
 - The objective was to model typical performance of the wind turbines, removing outliers and anomalies which would impact the model fit
 - The final model uses a Radial Basis Function kernel on a Support Vector Machine
 
+This was a basic attempt at modelling the power curve of the turbines. The focus of a future project will research better methods for modelling the power curve and identifying outliers. The end result will be a data-driven approach for detecting yaw misalignment and early fault detection.
+
 The dataset is available here: https://www.kaggle.com/berkerisen/wind-turbine-scada-dataset
