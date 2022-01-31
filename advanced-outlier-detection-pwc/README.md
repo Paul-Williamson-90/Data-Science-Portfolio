@@ -1,4 +1,4 @@
-# Outlier Detectiong for Modelling Wind Turbine Power Curves
+# Outlier Detection for Modelling Wind Turbine Power Curves
 ![](https://assets.justenergy.com/wp-content/uploads/2020/11/wind-energy-image-definition.jpg)
 
 ## Problem Statement
