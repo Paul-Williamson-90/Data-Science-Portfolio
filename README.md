@@ -4,4 +4,5 @@
 Showcasing some of the machine learning projects I have worked on.
 
 ## Currently working on:
-Yaw-misalignment and early fault detection for wind turbines using SCADA data.
+- Yaw-misalignment and early fault detection for wind turbines using SCADA data
+- A program to mass-migrate historical data from spreadsheets to Salesforce CRM using SOQL
