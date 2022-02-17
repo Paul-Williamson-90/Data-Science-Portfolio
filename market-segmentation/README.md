@@ -1,7 +1,7 @@
 # Market Segmentation Using KMeans Clustering
 ![](https://entrepreneurhandbook.co.uk/wp-content/uploads/2015/08/Segmenting-a-market.jpg.webp)
 
-- Practising segementing members of a professional body based on 52 different interests marked during registration
+- Practising segementing members of a professional body based on 52 topic interests marked during registration
 - To improve effectiveness and avoid the curse of dimensionality, the 52 interests are one-hot-encoded and then Principal Components Analysis is performed to reduce the data to a smaller feature space whilst maintaining as much of the variance as possible
 - The best number of clusters is worked out by visualising elbow plots and analysing the distortion, silhoette, calinski index, and inertia at k clusters
 - Once segmented into k-clusters, cluster groups are assigned to the original data and interests are then visualised in radar plots 
