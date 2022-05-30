@@ -1,4 +1,3 @@
-import math
 import numpy as np
     
 def H(array):
@@ -7,7 +6,7 @@ def H(array):
     classes = set(array)
     for cl in classes:
         p = np.count_nonzero(array == cl)/len(array)
-        ent+= p*math.log(p,2)
+        ent+= p*np.log2(p)
     return -ent
 
 array = np.array(['cat','cat','cat','cat','cat','dog'])
