@@ -1,4 +1,3 @@
-import math
 import numpy as np
 
 def KLD(y_true,y_pred):
@@ -11,7 +10,7 @@ def KLD(y_true,y_pred):
         y_true_probs.append(np.count_nonzero(y_true == cl)/len(y_true))
         y_pred_probs.append(np.count_nonzero(y_pred == cl)/len(y_pred))
     for i in range(0,len(y_true_probs)):
-        KLD += y_pred_probs[i] * math.log(y_true_probs[i]/y_pred_probs[i],2)
+        KLD += y_true_probs[i] * np.log2(y_pred_probs[i]/y_true_probs[i])
     return -KLD
 
 y_true = np.array(['cat','cat','cat','cat','cat','dog'])
