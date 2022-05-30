@@ -1,6 +1,6 @@
 import numpy as np
 
-def KLD(y_true,y_pred):
+def Kullback_Leibler_Divergence(y_true,y_pred):
     '''Calculates Kullback Leibler Divergence of y_pred from y_true'''
     KLD = 0.0
     classes = set(y_true)
@@ -16,4 +16,4 @@ def KLD(y_true,y_pred):
 y_true = np.array(['cat','cat','cat','cat','cat','dog'])
 y_pred = np.array(['cat','cat','cat','cat','dog','dog'])
 
-print(KLD(y_true,y_pred))
+print(Kullback_Leibler_Divergence(y_true,y_pred))
