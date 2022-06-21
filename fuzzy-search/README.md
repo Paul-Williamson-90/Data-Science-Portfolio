@@ -8,3 +8,5 @@ To resolve data inconsistency, fuzzywuzzy was used to implement fuzzy matching o
 "FuzzyWuzzy is a library of Python which is used for string matching. Fuzzy string matching is the process of finding strings that match a given pattern. Basically it uses Levenshtein Distance to calculate the differences between sequences." - https://www.geeksforgeeks.org/fuzzywuzzy-python-library/#:~:text=FuzzyWuzzy%20is%20a%20library%20of,calculate%20the%20differences%20between%20sequences.
 
 The design of the program is made so that non-tech colleagues can follow a simple set of instructions to install Python and run the script via command line. 
+
+In designing the solution, one of the challenges faced was computational complexity. There are many iterative tasks involved in the program which makes it quite a lengthy process... One of the ways I worked around this was by reducing the number of needed iterations via conditional filtering based on matching at least single token, using pattern matching: https://pandas.pydata.org/docs/reference/api/pandas.Series.str.contains.html
