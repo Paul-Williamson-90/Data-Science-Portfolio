@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[232]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import cm
@@ -11,8 +8,6 @@ import pandas as pd
 from scipy import stats
 from scipy.stats import probplot
 
-
-# In[592]:
 
 
 def bootstrap_statistic(data = None, statistic = 'mean', show = False):
@@ -309,14 +304,6 @@ def help_me():
             print(k1, functions[k][k1])
         print('')
 
-
-# In[591]:
-
-
-
-
-
-# In[594]:
 
 
 if __name__ == '__main__':
