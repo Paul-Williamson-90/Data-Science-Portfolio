@@ -150,7 +150,7 @@ def permutation_test_on_A(data = None, data_type = None):
         plt.show()
     
     elif data_type == 'discrete':
-        obs_perc_diffs = [data[0].mean() - data[i+1].mean() for i in range(no_sample_groups-1)]
+        obs_perc_diffs = [data[i+1].mean() - data[0].mean() for i in range(no_sample_groups-1)]
         perm_diffs = [permute(data, group_sizes) for _ in range(3000)]
         
         mean_a = data[0].mean()
