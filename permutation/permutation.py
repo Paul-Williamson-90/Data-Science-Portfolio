@@ -114,7 +114,7 @@ def permutation_test_on_A(data = None, data_type = None):
             groups.append(g_idx)
             n -= g_idx
         groups = [bag[list(gr)] for gr in groups]
-        return [groups[0].mean() - gr.mean() for gr in groups[1:]]
+        return [gr.mean() - groups[0].mean() for gr in groups[1:]]
 
     if not type(data) == list:
         raise TypeError('permutation_test() requires data as a list of sample groups in numpy.darray format.')
